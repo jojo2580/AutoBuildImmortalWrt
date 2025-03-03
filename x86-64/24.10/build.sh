@@ -43,8 +43,8 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-app-attendedsysupgrade"
 PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
-#PACKAGES="$PACKAGES luci-app-mihomo"
-#PACKAGES="$PACKAGES luci-i18n-mihomo-zh-cn"
+PACKAGES="$PACKAGES uci-app-homeproxy"
+PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
