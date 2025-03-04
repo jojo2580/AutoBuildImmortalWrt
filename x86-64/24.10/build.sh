@@ -38,7 +38,7 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-app-attendedsysupgrade"
 PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
-#PACKAGES="$PACKAGES uci-app-mihomo"
+PACKAGES="$PACKAGES luci-app-diskman"
 #PACKAGES="$PACKAGES luci-i18n-mihomo-zh-cn"
 
 # 增加几个必备组件 方便用户安装iStore
