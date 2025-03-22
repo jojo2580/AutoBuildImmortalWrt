@@ -40,6 +40,7 @@ PACKAGES="$PACKAGES luci-app-attendedsysupgrade"
 PACKAGES="$PACKAGES luci-i18n-attendedsysupgrade-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+PACKAGES="$PACKAGES luci-app-accesscontrol"
 
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
