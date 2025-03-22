@@ -91,14 +91,6 @@ elif [ "$count" -gt 1 ]; then
    fi
 fi
 
-
-# 安装iStore集成到自己编译的固件中
-echo >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-./scripts/feeds update istore
-./scripts/feeds install -d y -p istore luci-app-store
-
-
 # 设置所有网口可访问网页终端
 uci delete ttyd.@ttyd[0].interface
 
